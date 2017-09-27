@@ -9,6 +9,6 @@ function setBestCustomer() {
   bestCustomer = 'not bob'
 }
 
-function overwriteBestCustomer() {
-  bestCustomer = 'new favorite'
+function overwriteBestCustomer(newFavorite) {
+  bestCustomer = newFavorite
 }
